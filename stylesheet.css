@@ -1,0 +1,362 @@
+*{
+	background-color: #fff5da;
+	font-family: 'Verdana', sans-serif;
+}
+
+/*------------------header---------------------*/
+h1{
+	text-align: center;
+	font-family: 'OCR A Std', monospace;
+}
+
+/*----------------tabs in the nav bar--------------*/
+.mytabs{
+	width: 100%;
+	background: #dfd6bf; 
+	position: sticky;
+	float: right;
+
+}
+
+.amenu{
+	background: #dfd6bf;
+	padding-right: 50px;
+}
+
+.amenu li{
+	background: #dfd6bf;
+	list-style-type: none;
+	float: right;
+
+}
+
+.amenu li a{
+	background: transparent;
+	color: #605C52;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px;
+	padding-top: 5px;
+	padding-right: 50px;
+	margin: 0px;
+
+}
+
+.amenu li a:hover{
+	background: transparent;
+	color: #BFB8A4;
+}
+
+/*--------------------about me card----------------------*/
+
+.aboutme{
+	padding: 20px;
+	padding-right: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #DFD6bf;
+	width: 42%;
+	margin: 20px;
+	text-align: center;
+	float: right;
+
+}
+
+.generalcard{
+	padding-top: 100px;
+	padding-right: 120px;
+}
+
+.aboutme ul{
+	list-style-type: none;
+	background-color: #DFD6bf;
+	
+}
+
+.aboutme li{
+	width: auto;
+	line-height: 50px;
+	border-bottom: 2px solid #201F1b;
+	display: block;
+	text-align: center;
+	background-clip: padding-box;
+	background-color: #DFD6bf;
+}
+
+.aboutme li a{
+	background: transparent;
+	color: #605C52;
+	text-decoration: none;
+}
+
+.aboutme li a:hover{
+	background: transparent;
+	color: #BFB8A4;
+}
+
+.basicsbanner h2{
+	background: #807A6D;
+	font-weight: lighter;
+	color: #dfd6bf;
+	font-family: 'OCR A Std', monospace;
+}
+
+/*--------------headshot------------------*/
+.headshot{
+	padding-left: 225px;
+	padding-top: 25px;
+}
+
+.headshot img{
+	width: 35%;
+	height: auto;
+}
+
+/*------------movie list----------------*/
+.generalmovcard{
+	padding-top: 50px;
+}
+
+.favmovies{
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #DFD6bf;
+	width: 40%;
+	margin: 20px;
+	text-align: center;
+	float: left;
+
+}
+
+.moviecard ul{
+	list-style-type: none;
+	background-color: #DFD6bf;
+	
+}
+
+.moviecard li{
+	line-height: 50px;
+	border-bottom: 2px solid #201F1b;
+	display: block;
+	text-align: center;
+	background-clip: padding-box;
+	background-color: #DFD6bf;
+}
+
+
+/*------------show list-----------------*/
+.generalshowcard{
+	padding-top: 0px;
+	padding-right: 125px;
+}
+
+.favshows{
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #DFD6bf;
+	width: 40%;
+	margin: 20px;
+	text-align: center;
+	float: right;
+
+}
+
+.favshows ol li{
+	list-style-type: upper-roman;
+	display: list-item;
+}
+
+
+
+.showcard ol{
+	background-color: #DFD6bf;
+}
+
+.showcard li{
+	line-height: 50px;
+	border-bottom: 2px solid #201F1b;
+	display: block;
+	text-align: center;
+	background-clip: padding-box;
+	background-color: #DFD6bf;
+}
+
+/*------------assignment table-----------------*/
+
+.assigntable{
+	width: 80%;
+	text-align: center;
+	padding-top: 400px;
+	padding-left: 130px;
+	
+}
+
+.assigntable table{
+	width: 80%;
+	text-align: center;
+	border: 1px solid #605C52;
+	table-layout: fixed;
+
+}
+
+.assigntable table th{
+	text-align: center;
+	border: 1px solid #605C52;
+}
+
+.assigntable table tr{
+	text-align: center;
+	border: 1px solid #605C52;
+}
+
+.assigntable table td{
+	text-align: center;
+	border: 1px solid #605C52;
+}
+
+.tablebox tr:nth-child(even){
+	background-color: #dfd5bf;
+}
+
+.tablebox tr:nth-child(odd){
+	background-color: #9f9988;
+}
+
+table tr:nth-child(even){
+	background-color: #dfd5bf;
+}
+
+table tr:nth-child(odd){
+	background-color: #9f9988;
+}
+
+.assignarea tr:nth-child(even){
+	background-color: #dfd5bf;
+}
+
+.assignarea tr:nth-child(odd){
+	background-color: #9f9988;
+}
+
+.assigntable table tr:nth-child(even){
+	background-color: #dfd5bf;
+}
+
+.assigntable table tr:nth-child(odd){
+	background-color: #9f9988;
+}
+	
+.assigntable tr.assproj td{
+	border:0;
+	font-style: italic;
+
+}
+
+table{
+	background-color: transparent;
+}
+
+tr{
+	background-color: transparent;
+}
+
+td{
+	background-color: transparent;
+}
+
+.assigntable tr.assproj{
+	background: #9f9988;
+	border-collapse: collapse;
+}
+
+.tablebox{
+	padding-left: 200px;
+}
+
+td a{
+	background-color: transparent;
+	text-decoration: none;
+}
+
+th{
+	background-color: #9f9988;
+}
+
+
+/*----------link to cs website-------------------*/
+
+.csdept a{
+	background: transparent;
+	color: #605C52;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px;
+	padding-top: 30px;
+	padding-right: 50px;
+	margin: 0px;
+	padding-left: 575px;
+
+}
+
+/*---------------styling for my resume---------------------------*/
+.favquote{
+	font-size: 17px;
+	text-align: center;
+	font-style: italic;
+}
+
+.bigheader{
+	font-weight: bold;
+	font-size: 29px;
+	font-family: 'OCR A Std', monospace;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.subheading{
+	font-size: 18px;
+	text-align: center;
+	
+}
+
+.headforsection{
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 40px;
+	
+}
+
+.sectiontext{
+	padding-left: 20px;
+}
+
+.sectionlist{
+	font-size: 14px;
+	font-style: italic;
+	padding-left: 30px;
+}
+
+.mylinks{
+	font-size: 16px;
+	color: black;
+	text-align: center;
+}
+
+.mylinks a{
+	color: #605C52;
+	text-decoration: none;
+}
+
+.mylinks a:hover{
+	background: transparent;
+	color: #BFB8A4;
+}
+
+span{
+	color: red;
+	font-weight: bold;
+	background-color: transparent;
+}
